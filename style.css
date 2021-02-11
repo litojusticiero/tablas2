@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    empty-cells: hide;
+    border: solid 1px black;
+    margin-bottom: 2em;
+}
+table.dos{
+    border-collapse: collapse;
+}
+caption{
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+}
+caption.dos{
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    caption-side: bottom;
+}
+th.uno{
+    padding-right: 7em;
+    padding-left: 7em;
+    border: black 1px solid;
+}
+th.dos{
+    padding-right: 10em;
+    padding-left: 10em;
+    border: black 1px solid;
+}
+th.tres{
+    padding-right: 10em;
+    padding-left: 10em;
+    border: black 1px solid
+}
+th.cuatro{
+    padding-right: 15em;
+    padding-left: 15em;
+    border: black 1px solid
+}
+
+td{
+    border: 1px solid black;
+}
+tbody.dos{
+    border: red dotted 1px;
+}
+td.mid{
+    border: 1px solid black;
+    padding-top: 1.8em;
+    padding-right: 37em;
+    padding-left: 37em;
+}
