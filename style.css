@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    font-family: 'Hanalei', cursive;
 }
 table{
     margin-left: auto;
@@ -13,12 +14,12 @@ table.dos{
     border-collapse: collapse;
 }
 caption{
-    background-color: yellow;
+    background-color: rgb(252, 207, 6);
     color: blue;
     font-weight: bold;
 }
 caption.dos{
-    background-color: yellow;
+    background-color: rgb(252, 207, 6);
     color: blue;
     font-weight: bold;
     caption-side: bottom;
@@ -48,11 +49,32 @@ td{
     border: 1px solid black;
 }
 tbody.dos{
-    border: red dotted 1px;
+    border: red dotted 2px;
 }
 td.mid{
     border: 1px solid black;
     padding-top: 1.8em;
     padding-right: 37em;
     padding-left: 37em;
+}
+td.bot{
+    background-color: rgb(252, 207, 6);
+    color: blue;
+    border:3px solid red;
+    padding-left: 26em;
+    padding-right: 26em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bolder;
+}
+table.tres{
+    border: transparent;
+}
+hr.uno{
+    margin-left: 37%;
+    margin-right: 37%;
+    color: darkgrey;
+    height: 2px;
+    background-color: darkgray;
+    opacity: 0.5;
 }
